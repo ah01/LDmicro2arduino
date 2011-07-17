@@ -11,7 +11,7 @@ define("LADDER_DEF_PIN_PREFIX", "d");
 define("LADDER_GEN_VERSION" , "1.0");
 define("CLI", !isset($_SERVER['HTTP_USER_AGENT']));
 
-if (defined("CLI"))
+if (CLI)
 {
     $path =  realpath(isset($argv[1]) ? $argv[1] : getcwd()) . '/';
 
