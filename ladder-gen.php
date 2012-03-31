@@ -196,7 +196,11 @@ function gen_header_file($setup_code, $digital_io_code)
 #ifndef LADDER_H
 #define LADDER_H
 
-#include "WProgram.h"
+#if ARDUINO >= 100
+    #include "Arduino.h"   
+#else
+    #include "WProgram.h"
+#endif
 
 #define BOOL boolean
 #define SWORD int
