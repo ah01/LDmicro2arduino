@@ -1,6 +1,6 @@
 # LDmicro &rarr; Arduino
 
-*The way how to program written in the [LDmicro](http://www.cq.cx/ladder.pl) run 
+*Simple way how to run code from[LDmicro](http://www.cq.cx/ladder.pl)  
 on the [Arduino](http://arduino.cc) board.*
 
 
